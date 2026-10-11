@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #111111;
+    line-height: 1.5;
+}
+
+/* --- תפריט עליון --- */
+.top-nav {
+    width: 100%;
+    padding: 15px 30px;
+    border-bottom: 1px solid #eaeaea;
+    font-size: 14px;
+    background-color: #ffffff;
+}
+
+.nav-left {
+    float: left;
+    width: 20%;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-right {
+    float: right;
+    width: 28%;
+    text-align: right;
+}
+
+.nav-right .btn-login {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 13.5px;
+    font-weight: 500;
+    padding: 6px 16px;
+    border-radius: 18px;
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav-right .btn-pill {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #0d0d0d;
+    border: 1px solid #dcdcdc;
+    font-size: 13.5px;
+    font-weight: 500;
+    padding: 6px 16px;
+    border-radius: 18px;
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav-right .btn-help {
+    text-decoration: none;
+    background-color: transparent;
+    color: #555555;
+    font-size: 13.5px;
+    border: 1px solid #dcdcdc;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 30px;
+}
+
+.nav-center {
+    width: 52%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav-center a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #555555;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.nav-center a:hover {
+    color: #000000;
+}
+
+/* --- תוכן עמוד ה-Agent (שני צדדים עם float) --- */
+.agent-container {
+    width: 100%;
+    max-width: 1050px;
+    margin: 80px auto 0 auto;
+    padding: 0 30px;
+}
+
+/* צד שמאל */
+.agent-text-side {
+    float: left;
+    width: 45%;
+    padding-top: 40px;
+}
+
+.agent-title {
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #0d0d0d;
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;
+}
+
+.agent-desc {
+    font-size: 1.05rem;
+    color: #444444;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.agent-subtext {
+    font-size: 0.85rem;
+    color: #777777;
+    margin-bottom: 30px;
+}
+
+.btn-try-now {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 24px;
+    border-radius: 20px;
+}
+
+.btn-try-now:hover {
+    background-color: #333333;
+}
+
+/* צד ימין */
+.agent-image-side {
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+.blue-card-bg {
+    width: 100%;
+    height: 420px;
+    background: linear-gradient(135deg, #d4ebff 0%, #b3dcff 50%, #8ac2ff 100%);
+    border-radius: 24px;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+.floating-box {
+    position: absolute;
+    bottom: 35px;
+    left: 30px;
+    right: 30px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.bulb-icon {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 8px; /* מרווח מושלם מתחת לנורה */
+}
+
+.floating-content {
+    display: block;
+}
+
+.floating-title {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #111111;
+    margin-bottom: 4px;
+}
+
+.floating-desc {
+    font-size: 13px;
+    color: #555555;
+    line-height: 1.4;
+} 
