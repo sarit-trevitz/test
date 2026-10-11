@@ -145,3 +145,18 @@ body {
     bottom: 0;
     margin-right: 0;
 }
+
+.nav-right .btn-help {
+    background-color: transparent;
+    color: #555555;
+    font-size: 13.5px;
+    border: 1px solid #dcdcdc;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 30px;
+}

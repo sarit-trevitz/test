@@ -11,7 +11,6 @@ body {
     line-height: 1.5;
 }
 
-/* --- תפריט עליון --- */
 .top-nav {
     width: 100%;
     padding: 15px 30px;
@@ -98,7 +97,6 @@ body {
     color: #000000;
 }
 
-/* --- תוכן עמוד ה-Agent (שני צדדים עם float) --- */
 .agent-container {
     width: 100%;
     max-width: 1050px;
@@ -106,7 +104,6 @@ body {
     padding: 0 30px;
 }
 
-/* צד שמאל */
 .agent-text-side {
     float: left;
     width: 45%;
@@ -149,7 +146,6 @@ body {
     background-color: #333333;
 }
 
-/* צד ימין */
 .agent-image-side {
     float: right;
     width: 50%;
@@ -180,7 +176,7 @@ body {
 .bulb-icon {
     font-size: 20px;
     display: block;
-    margin-bottom: 8px; /* מרווח מושלם מתחת לנורה */
+    margin-bottom: 8px; 
 }
 
 .floating-content {
